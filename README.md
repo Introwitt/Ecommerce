@@ -1,2 +1,2 @@
 # Ecommerce
-Ecommerce website buit in MERN stack
+Ecommerce app built in MERN stack
