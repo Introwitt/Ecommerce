@@ -1,8 +1,8 @@
 import React from 'react';
-import {BrowserRouter as Router} from 'react-router-dom';
-import {DataProvider} from './GlobalState';
-import Header from './components/headers/Header';
-import Page from './components/mainpages/Page';
+import {BrowserRouter as Router} from 'react-router-dom'
+import {DataProvider} from './GlobalState'
+import Header from './components/headers/Header'
+import MainPages from './components/mainpages/Pages'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Router>
         <div className="App">
           <Header />
-          <Page />
+          <MainPages />
         </div>
       </Router>
     </DataProvider>
